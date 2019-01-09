@@ -1,4 +1,6 @@
-When require is given the path of a folder, it'll look for an index.js file in that folder; if there is one, it uses that, and if there isn't, it fails.
+https://nodejs.org/api/modules.html#modules_folders_as_modules
+
+When require is given the path of a folder, it'll look for an index.js file in that folder; if there is one, it uses that, and if there isn't, it fails. You can change what it looks for by adding a package.json file to the folder system where "name": path/to/folder and "main": path/to/entry/point.
 
 It would probably make most sense (if you have control over the folder) to create an index.js file and then assign all the "modules" and then simply require that.
 
