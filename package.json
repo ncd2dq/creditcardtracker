@@ -1,0 +1,29 @@
+{
+  "name": "creditcardtracker",
+  "version": "1.0.0",
+  "description": "Track the current best cash back offers by category for credit cards",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncd2dq/creditcardtracker.git"
+  },
+  "author": "Nick Dima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncd2dq/creditcardtracker/issues"
+  },
+  "homepage": "https://github.com/ncd2dq/creditcardtracker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6"
+  }
+}
